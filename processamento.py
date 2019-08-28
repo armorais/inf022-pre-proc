@@ -1,18 +1,66 @@
 import xlrd
 import json
-from itens import Municipio
-from itens import JsonRegioes
+import io
+from itens import Estado, Mesorregiao, Microrregiao, Municipio
 
+# Arquivos utilizados
+json_out_file = 'out.json'
+xls_search_file = './2016/banana.xls'
+json_search_file = 'bahia.json'
+
+# Mapeamento das colunas do xls
+NOME_REGIAO = {"coluna":0}
+AREA_DESTINADA = {"nome":"Area destinada","coluna":1}
+AREA_COLHIDA = {"nome":"Area colhida","coluna":2}
+QUANTIDADE_PRODUZIDA = {"nome":"Quantidade produzida","coluna":3}
+VALOR = {"nome":"Valor","coluna":5}
+
+# Atributos a povoar o json de saída
+atributos = [AREA_DESTINADA["nome"], AREA_COLHIDA["nome"], QUANTIDADE_PRODUZIDA["nome"], VALOR["nome"]]
+
+# Estados a serem incluídos
+estados = ['Bahia']
+
+# Transforma um obj em um dicionário
 def obj_dict(obj):
     return obj.__dict__
 
-estados = ['Bahia']
-proc_flag = False
+# Corrige erros nos nomes dos municípios encontrados no xls
+def corrigir_nome(nome):
+    if(nome == 'Santa Teresinha'):
+        return 'Santa Terezinha'
+    elif(nome == 'Iuiú'):
+        return 'Iuiu'
+    elif(nome == 'Araças'):
+        return 'Araçás'
+    return nome
 
-wb = xlrd.open_workbook('./2010/abacate.xls', formatting_info=True)
+# Busca um item em um fragmento do json de busca
+def getByValue(dic, valor):
+    for item in dic:
+        if item["nome"] == valor:
+            return item
 
+# Abre o json de busca para leitura
+with open(json_search_file, 'r') as f:
+    json_estado = json.load(f)
+
+# Abre o xls de busca para leitura
+wb = xlrd.open_workbook(xls_search_file, formatting_info=True)
+
+# Seleciona a primeira página do xls
 sheet = wb.sheet_by_index(0)
 
+# Salva o nome do produto (Categoria)
+nome_produto = sheet.cell(5,0).value
+
+# Instancia o objeto de referência para criação do json
+j = Estado()
+
+# flag utilizada para controlar quando transformar um linha em objeto
+proc_flag = False
+
+# Faz o processamento de cada linha
 for i in range(sheet.nrows):
     cell = sheet.cell(i,0)
     inf = wb.xf_list[cell.xf_index]
@@ -22,26 +70,44 @@ for i in range(sheet.nrows):
         else:
             proc_flag = False
     if(proc_flag):
-        print(cell.value)
-        print(inf.alignment.indent_level)
+        nome_regiao = sheet.cell(i,NOME_REGIAO["coluna"]).value
+        area_destinada = sheet.cell(i,AREA_DESTINADA["coluna"]).value
+        area_colhida = sheet.cell(i,AREA_COLHIDA["coluna"]).value
+        quantidade_produzida = sheet.cell(i,QUANTIDADE_PRODUZIDA["coluna"]).value
+        valor = sheet.cell(i,VALOR["coluna"]).value
+        valores = [area_destinada,area_colhida,quantidade_produzida,valor]
+        if(inf.alignment.indent_level == 3):
+            nome_regiao = corrigir_nome(nome_regiao)
+            mun = getByValue(json_estado["municipios"],nome_regiao)
+            try:
+                id = mun["id"]
+            except TypeError:
+                print(nome_regiao)
+            id_micro = mun["microrregiao"]["id"]
+            id_meso = mun["microrregiao"]["mesorregiao"]["id"]
+            mun = Municipio(id,nome_regiao,nome_produto,atributos,valores,id_meso,id_micro)
+            j.add_item("MUNICIPIOS",mun)
+        elif(inf.alignment.indent_level == 2):
+            micro = getByValue(json_estado["microrregioes"],nome_regiao)
+            id = micro["id"]
+            id_meso = micro["mesorregiao"]["id"]
+            micro = Microrregiao(id,nome_regiao,nome_produto,atributos,valores,id_meso)
+            j.add_item("MICRORREGIOES",micro)
+        elif(inf.alignment.indent_level == 1):
+            meso = getByValue(json_estado["mesorregioes"],nome_regiao)
+            id = meso["id"]
+            meso = Mesorregiao(id,nome_regiao,nome_produto,atributos,valores)
+            j.add_item("MESORREGIOES",meso)
 
-mun1 = Municipio(1,'salvador',13,123123,'lol',[1,2,3,4],[1,2,9,20],12,13)
-mun2 = Municipio(2,'abaira',13,3123,'lol',[1,2,3,4],[5,6,7,8],12,13)
-mun3 = Municipio(3,'abaira',13,3123,'lol',[1,2,3,4],[0,500,0,500],12,13)
+# Transforma o objeto em json
+s = json.dumps(j.get_itens(), default=obj_dict, ensure_ascii=False)
 
-j = JsonRegioes()
-
-j.add_item("MUNICIPIOS",mun1)
-j.add_item("MUNICIPIOS",mun2)
-j.add_item("MUNICIPIOS",mun3)
-
-s = json.dumps(j.get_itens(), default=obj_dict)
-
+# Salva o json de saída
 try:
-    text_file = open("Output.json", "w")
-    text_file.write("%s" % s)
-    text_file.close()
+    with io.open(json_out_file, 'w', encoding='utf8') as f:
+        f.write("%s" % s)
+        f.close()
 
     print("Json criado.")
 except FileNotFoundError:
-    print("Json não criado, arquivo não encontrado")
+    print("Json nao criado, arquivo nao encontrado")
