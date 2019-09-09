@@ -23,12 +23,17 @@ class Mesorregiao(Regiao):
         super().__init__(ID, CATEGORIA, ATRIBUTOS, VALORES)
         self.NOME_MESORREGIAO = NOME_MESORREGIAO
 
-class Estado:
-
+class Metadados:
     def __init__(self):
         self.MIN_Valores = []
         self.MAX_Valores = []
-        self.itens = {"MIN_Valores":[],"MAX_Valores":[],"MESORREGIOES":[],"MICRORREGIOES":[],"MUNICIPIOS":[]}
+        self.PERCENTIS = []
+
+class Estado:
+    def __init__(self):
+        self.MIN_Valores = []
+        self.MAX_Valores = []
+        self.itens = {"METADADOS":Metadados(),"MESORREGIOES":[],"MICRORREGIOES":[],"MUNICIPIOS":[]}
 
     def add_item(self, chave, item):
         self.itens[chave].append(item)
@@ -48,7 +53,7 @@ class Estado:
         return self.itens
 
     def set_max_valores(self):
-        self.itens["MAX_Valores"] = self.MAX_Valores
+        self.itens["METADADOS"].MAX_Valores = self.MAX_Valores
 
     def set_min_valores(self):
-        self.itens["MIN_Valores"] = self.MIN_Valores
+        self.itens["METADADOS"].MIN_Valores = self.MIN_Valores
