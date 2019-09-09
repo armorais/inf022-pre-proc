@@ -1,6 +1,8 @@
 import xlrd
 import json
 import io
+import pandas as pd
+import numpy as np
 from itens import Estado, Mesorregiao, Microrregiao, Municipio
 
 # Arquivos utilizados
@@ -20,6 +22,10 @@ atributos = [AREA_DESTINADA["nome"], AREA_COLHIDA["nome"], QUANTIDADE_PRODUZIDA[
 
 # Estados a serem incluídos
 estados = ['Bahia']
+
+# Percentis a serem considerados
+percentis_range = [20.0,40.0,60.0,80.0]
+percentis = []
 
 # Transforma um obj em um dicionário
 def obj_dict(obj):
@@ -42,7 +48,7 @@ def getByValue(dic, valor):
             return item
 
 # Abre o json de busca para leitura
-with open(json_search_file, 'r') as f:
+with open(json_search_file, 'r', encoding='utf8') as f:
     json_estado = json.load(f)
 
 # Abre o xls de busca para leitura
@@ -98,6 +104,16 @@ for i in range(sheet.nrows):
             id = meso["id"]
             meso = Mesorregiao(id,nome_regiao,nome_produto,atributos,valores)
             j.add_item("MESORREGIOES",meso)
+
+destinada = pd.DataFrame.from_records(j.get_valores_list(), columns = ['destinada' , 'colhida', 'produzida', 'valor'])
+
+# Pega os percentis e adiciona em uma lista de dicionarios contendo {nome_atributo:percentil}
+for coluna in range(len(percentis_range)):
+    percentile = np.percentile(destinada,percentis_range[coluna],0)
+    percentis.append({atributos[coluna]:percentile.tolist()})
+
+# Seta os percentis
+j.set_percentis(percentis)
 
 # Transforma o objeto em json
 s = json.dumps(j.get_itens(), default=obj_dict, ensure_ascii=False)

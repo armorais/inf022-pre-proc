@@ -52,8 +52,17 @@ class Estado:
         self.set_min_valores()
         return self.itens
 
+    def get_valores_list(self):
+        lista = []
+        for mun in self.itens["MUNICIPIOS"]:
+            lista.append(mun.VALORES)
+        return lista
+
     def set_max_valores(self):
         self.itens["METADADOS"].MAX_Valores = self.MAX_Valores
 
     def set_min_valores(self):
         self.itens["METADADOS"].MIN_Valores = self.MIN_Valores
+
+    def set_percentis(self, percentis):
+        self.itens["METADADOS"].PERCENTIS = percentis
