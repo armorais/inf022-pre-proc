@@ -7,7 +7,7 @@ from itens import Estado, Mesorregiao, Microrregiao, Municipio
 
 # Parametros de busca
 estado = {'nome':'Bahia', 'sigla':'ba'}
-anos = [2010,2016]
+anos = [2012,2013,2014,2015,2016]
 produto = 'banana'
 
 # Arquivos utilizados
@@ -58,8 +58,8 @@ j = Estado()
 proc_flag = False
 
 for ano in anos:
-    xls_search_file = './'+ str(ano) +'/'+ produto +'.xls'
-    json_out_file =  estado['sigla'] + '_' + str(ano) + '_geral.json';
+    xls_search_file = 'dados/'+ str(ano) +'/'+ produto +'.xls'
+    json_out_file =  'out/' + estado['sigla'] + '_' + str(ano) + '_geral.json';
 
     # Abre o xls de busca para leitura
     wb = xlrd.open_workbook(xls_search_file, formatting_info=True, on_demand=True)
@@ -134,6 +134,6 @@ for ano in anos:
             f.write("%s" % s)
             f.close()
 
-        print("Json " + json_out_file + "criado.")
+        print("Json " + json_out_file + " criado.")
     except FileNotFoundError:
         print("Json nao criado, arquivo nao encontrado")
