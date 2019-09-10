@@ -105,12 +105,14 @@ for i in range(sheet.nrows):
             meso = Mesorregiao(id,nome_regiao,nome_produto,atributos,valores)
             j.add_item("MESORREGIOES",meso)
 
-destinada = pd.DataFrame.from_records(j.get_valores_list(), columns = ['destinada' , 'colhida', 'produzida', 'valor'])
+dataframe = pd.DataFrame.from_records(j.get_valores_list(), columns = atributos)
 
 # Pega os percentis e adiciona em uma lista de dicionarios contendo {nome_atributo:percentil}
-for coluna in range(len(percentis_range)):
-    percentile = np.percentile(destinada,percentis_range[coluna],0)
-    percentis.append({atributos[coluna]:percentile.tolist()})
+for coluna in range(len(atributos)):
+    percentile = []
+    for valor in range(len(percentis_range)):
+        percentile.append(np.percentile(dataframe[atributos[coluna]],percentis_range[valor],0))
+    percentis.append({atributos[coluna]:percentile})
 
 # Seta os percentis
 j.set_percentis(percentis)
