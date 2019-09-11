@@ -4,6 +4,7 @@ import io
 import pandas as pd
 import numpy as np
 from itens import Estado, Mesorregiao, Microrregiao, Municipio
+from evolucao import GeradorEvolucao
 
 # Parametros de busca
 estado = {'nome':'Bahia', 'sigla':'ba'}
@@ -137,3 +138,15 @@ for ano in anos:
         print("Json " + json_out_file + " criado.")
     except FileNotFoundError:
         print("Json nao criado, arquivo nao encontrado")
+
+evolucao = GeradorEvolucao.gerar_evolucao(estado['sigla'],anos)
+
+# Salva o json de evolucao
+try:
+    with io.open(estado['sigla'] + '_evolucao.json', 'w', encoding='utf8') as f:
+        f.write("%s" % evolucao)
+        f.close()
+
+    print("Json de evolucao criado.")
+except FileNotFoundError:
+    print("Json nao criado, arquivo nao encontrado")

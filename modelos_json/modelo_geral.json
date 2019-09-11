@@ -1,0 +1,4072 @@
+{
+	"METADADOS":{
+		"MIN_Valores": [],
+		"MAX_Valores": [],
+		"PERCENTIS":[]
+	},
+
+	"MESORREGIOES":[
+  {
+    "ID": 2901 ,
+    "NOME_MESORREGIAO": "Extremo Oeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [655915, 14109635, 387, 2678]
+  },
+  {
+    "ID": 2902 ,
+    "NOME_MESORREGIAO": "Vale São-Franciscano da Bahia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [1065033, 11633372, 223, 5205]
+  },
+  {
+    "ID": 2903 ,
+    "NOME_MESORREGIAO": "Centro Norte Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [2434025, 31827797, 714, 14157]
+  },
+  {
+    "ID": 2904 ,
+    "NOME_MESORREGIAO": "Nordeste Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [1680266, 16053329, 452, 7868]
+  },
+  {
+    "ID": 2905 ,
+    "NOME_MESORREGIAO": "Metropolitana de Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4709436, 124706605, 872, 28814]
+  },
+  {
+    "ID": 2906 ,
+    "NOME_MESORREGIAO": "Centro Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [2642625, 28303815, 947, 14766]
+  },
+  {
+    "ID": 2907 ,
+    "NOME_MESORREGIAO": "Sul Baiano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [2157147, 32014497, 878, 12742]
+  }
+],
+	"MICRORREGIOES":[
+  {
+    "ID": 29001,
+    "NOME_MICRORREGIAO": "Barreiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [342073, 10493931, 196, 1778],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29002,
+    "NOME_MICRORREGIAO": "Cotegipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [123437, 1125125, 71, 328],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29003,
+    "NOME_MICRORREGIAO": "Santa Maria da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [190405, 2490579, 120, 572],
+    "ID_MESO": 2901 
+  },
+  {
+    "ID": 29004,
+    "NOME_MICRORREGIAO": "Juazeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [504743, 5799880, 72, 2619],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29005,
+    "NOME_MICRORREGIAO": "Paulo Afonso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [185997, 2768841, 54, 1004],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29006,
+    "NOME_MICRORREGIAO": "Barra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [188240, 1417328, 51, 826],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29007,
+    "NOME_MICRORREGIAO": "Bom Jesus da Lapa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [186053, 1647323, 46, 756],
+    "ID_MESO": 2902 
+  },
+  {
+    "ID": 29008,
+    "NOME_MICRORREGIAO": "Senhor do Bonfim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [312163, 2723453, 67, 1503],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29009,
+    "NOME_MICRORREGIAO": "Irecê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [407904, 3605586, 142, 2243],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29010,
+    "NOME_MICRORREGIAO": "Jacobina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [351284, 3353769, 123, 1827],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29011,
+    "NOME_MICRORREGIAO": "Itaberaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [265280, 2206134, 85, 1444],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29012,
+    "NOME_MICRORREGIAO": "Feira de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [1097394, 19938855, 297, 7140],
+    "ID_MESO": 2903 
+  },
+  {
+    "ID": 29013,
+    "NOME_MICRORREGIAO": "Jeremoabo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [102887, 725985, 31, 337],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29014,
+    "NOME_MICRORREGIAO": "Euclides da Cunha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [314478, 2431188, 62, 1494],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29015,
+    "NOME_MICRORREGIAO": "Ribeira do Pombal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [342677, 2731605, 99, 1576],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29016,
+    "NOME_MICRORREGIAO": "Serrinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [453286, 3512384, 115, 1960],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29017,
+    "NOME_MICRORREGIAO": "Alagoinhas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [338835, 5172782, 90, 2004],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29018,
+    "NOME_MICRORREGIAO": "Entre Rios",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [128103, 1479385, 55, 497],
+    "ID_MESO": 2904 
+  },
+  {
+    "ID": 29019,
+    "NOME_MICRORREGIAO": "Catu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [235677, 3382297, 90, 1048],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29020,
+    "NOME_MICRORREGIAO": "Santo Antônio de Jesus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [591097, 7419502, 210, 3225],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29021,
+    "NOME_MICRORREGIAO": "Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [3882662, 113904806, 572, 24541],
+    "ID_MESO": 2905 
+  },
+  {
+    "ID": 29022,
+    "NOME_MICRORREGIAO": "Boquira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [200715, 1301712, 65, 935],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29023,
+    "NOME_MICRORREGIAO": "Seabra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [272069, 2652731, 170, 1295],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29024,
+    "NOME_MICRORREGIAO": "Jequié",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [537681, 5743191, 212, 3256],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29025,
+    "NOME_MICRORREGIAO": "Livramento do Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [104971, 882065, 37, 538],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29026,
+    "NOME_MICRORREGIAO": "Guanambi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [408068, 3879987, 137, 2120],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29027,
+    "NOME_MICRORREGIAO": "Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [241479, 2654686, 106, 1096],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29028,
+    "NOME_MICRORREGIAO": "Vitória da Conquista",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [669018, 8899435, 132, 4455],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29029,
+    "NOME_MICRORREGIAO": "Itapetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [208624, 2290008, 88, 1071],
+    "ID_MESO": 2906 
+  },
+  {
+    "ID": 29030,
+    "NOME_MICRORREGIAO": "Valença",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [292868, 3531277, 111, 1091],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29031,
+    "NOME_MICRORREGIAO": "Ilhéus-Itabuna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [1046083, 14833844, 482, 7411],
+    "ID_MESO": 2907 
+  },
+  {
+    "ID": 29032,
+    "NOME_MICRORREGIAO": "Porto Seguro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [818196, 13649376, 285, 4240],
+    "ID_MESO": 2907 
+  }
+],
+	"MUNICIPIOS":[
+  {
+    "ID": 2912301,
+    "NOME_MUNICIPIO": "Ibicuí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16796, 161612, 9, 88],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2908200,
+    "NOME_MUNICIPIO": "Conceição da Feira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23024, 255524, 11, 65],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904100,
+    "NOME_MUNICIPIO": "Boquira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22464, 137385, 6, 105],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929701,
+    "NOME_MUNICIPIO": "Sátiro Dias",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20429, 165579, 8, 86],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2902054,
+    "NOME_MUNICIPIO": "Araçás",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12608, 89349, 7, 70],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925600,
+    "NOME_MUNICIPIO": "Presidente Dutra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15734, 98559, 6, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917409,
+    "NOME_MUNICIPIO": "Jacaraci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15459, 94754, 6, 81],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903102,
+    "NOME_MUNICIPIO": "Barra do Rocha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6258, 61857, 9, 21],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928703,
+    "NOME_MUNICIPIO": "Santo Antônio de Jesus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [103342, 2094682, 20, 1004],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918456,
+    "NOME_MUNICIPIO": "Jucuruçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9924, 96532, 9, 26],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2924603,
+    "NOME_MUNICIPIO": "Pindobaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21171, 122273, 5, 73],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920502,
+    "NOME_MUNICIPIO": "Maracás",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23018, 308900, 13, 136],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2916401,
+    "NOME_MUNICIPIO": "Itapetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [77533, 1015448, 13, 519],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2922508,
+    "NOME_MUNICIPIO": "Nazaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29546, 246709, 8, 159],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2901007,
+    "NOME_MUNICIPIO": "Amargosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [38259, 338286, 8, 210],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2920452,
+    "NOME_MUNICIPIO": "Mansidão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13959, 88889, 6, 17],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918407,
+    "NOME_MUNICIPIO": "Juazeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [221773, 3435777, 15, 1674],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2914307,
+    "NOME_MUNICIPIO": "Iramaia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9901, 78037, 7, 29],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2921500,
+    "NOME_MUNICIPIO": "Monte Santo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [51953, 310814, 5, 278],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2913309,
+    "NOME_MUNICIPIO": "Ichu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6437, 38498, 5, 33],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2909208,
+    "NOME_MUNICIPIO": "Coronel João Sá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16814, 132814, 7, 58],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915353,
+    "NOME_MUNICIPIO": "Itaguaçu da Bahia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14718, 82810, 5, 43],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2911253,
+    "NOME_MUNICIPIO": "Gavião",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4725, 37750, 7, 11],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2930709,
+    "NOME_MUNICIPIO": "Simões Filho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [136050, 4988848, 36, 572],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2926608,
+    "NOME_MUNICIPIO": "Ribeira do Pombal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [54965, 510036, 9, 501],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905107,
+    "NOME_MUNICIPIO": "Caém",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10058, 87366, 8, 59],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924652,
+    "NOME_MUNICIPIO": "Pintadas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11012, 77033, 6, 60],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922607,
+    "NOME_MUNICIPIO": "Nilo Peçanha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14368, 129704, 9, 41],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2918506,
+    "NOME_MUNICIPIO": "Jussara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16006, 94045, 5, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2914406,
+    "NOME_MUNICIPIO": "Iraquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25536, 331163, 12, 137],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910305,
+    "NOME_MUNICIPIO": "Elísio Medrado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8461, 58940, 6, 60],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930808,
+    "NOME_MUNICIPIO": "Souto Soares",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17503, 93720, 5, 56],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909307,
+    "NOME_MUNICIPIO": "Correntina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33361, 1123973, 33, 108],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905206,
+    "NOME_MUNICIPIO": "Caetité",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [52853, 637474, 12, 254],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2901106,
+    "NOME_MUNICIPIO": "Amélia Rodrigues",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26409, 280400, 10, 118],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2926707,
+    "NOME_MUNICIPIO": "Rio de Contas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13712, 109725, 8, 93],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930766,
+    "NOME_MUNICIPIO": "Sítio do Quinto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11283, 74128, 6, 39],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2915403,
+    "NOME_MUNICIPIO": "Itaju do Colônia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7218, 65351, 9, 23],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2905156,
+    "NOME_MUNICIPIO": "Caetanos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16106, 77193, 4, 31],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2932804,
+    "NOME_MUNICIPIO": "Utinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19780, 150627, 7, 106],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2930758,
+    "NOME_MUNICIPIO": "Sítio do Mato",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13437, 99448, 7, 34],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2911303,
+    "NOME_MUNICIPIO": "Gentio do Ouro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11639, 197590, 16, 36],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2926657,
+    "NOME_MUNICIPIO": "Ribeirão do Largo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7437, 84524, 11, 19],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2907202,
+    "NOME_MUNICIPIO": "Casa Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [73382, 584368, 7, 282],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2906204,
+    "NOME_MUNICIPIO": "Canarana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26862, 174080, 6, 97],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2931806,
+    "NOME_MUNICIPIO": "Tremedal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17700, 116144, 6, 123],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2902104,
+    "NOME_MUNICIPIO": "Araci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [55935, 391894, 7, 242],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927705,
+    "NOME_MUNICIPIO": "Santa Cruz Cabrália",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28552, 339478, 11, 123],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923605,
+    "NOME_MUNICIPIO": "Paramirim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22286, 189972, 8, 205],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2929750,
+    "NOME_MUNICIPIO": "Saubara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12380, 121519, 9, 81],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2930774,
+    "NOME_MUNICIPIO": "Sobradinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23713, 384852, 16, 80],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2919504,
+    "NOME_MUNICIPIO": "Livramento de Nossa Senhora",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [46739, 433471, 9, 206],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2915502,
+    "NOME_MUNICIPIO": "Itajuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21642, 267247, 12, 85],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911402,
+    "NOME_MUNICIPIO": "Glória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15840, 167411, 10, 36],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2907301,
+    "NOME_MUNICIPIO": "Castro Alves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27238, 362052, 13, 168],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2932903,
+    "NOME_MUNICIPIO": "Valença",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [98749, 1399668, 14, 547],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2922656,
+    "NOME_MUNICIPIO": "Nordestina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13597, 102198, 7, 49],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903201,
+    "NOME_MUNICIPIO": "Barreiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [157638, 3358643, 21, 1353],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2928802,
+    "NOME_MUNICIPIO": "Santo Estêvão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [53898, 734035, 13, 298],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2901155,
+    "NOME_MUNICIPIO": "América Dourada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16798, 120759, 7, 58],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927804,
+    "NOME_MUNICIPIO": "Santa Cruz da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6698, 54820, 8, 32],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925758,
+    "NOME_MUNICIPIO": "Presidente Tancredo Neves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28082, 221303, 7, 126],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906303,
+    "NOME_MUNICIPIO": "Canavieiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33002, 309233, 9, 157],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2923704,
+    "NOME_MUNICIPIO": "Paratinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [32967, 200638, 6, 127],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902203,
+    "NOME_MUNICIPIO": "Aramari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11703, 84880, 7, 22],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2913457,
+    "NOME_MUNICIPIO": "Igrapiúna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14187, 177433, 12, 24],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2919603,
+    "NOME_MUNICIPIO": "Macajuba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11879, 71175, 5, 64],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2900108,
+    "NOME_MUNICIPIO": "Abaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9199, 64325, 6, 47],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925709,
+    "NOME_MUNICIPIO": "Presidente Jânio Quadros",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13334, 74388, 5, 62],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2929800,
+    "NOME_MUNICIPIO": "Saúde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13385, 82872, 6, 64],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2921609,
+    "NOME_MUNICIPIO": "Morpará",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8950, 60555, 6, 35],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2917508,
+    "NOME_MUNICIPIO": "Jacobina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [83635, 1268886, 15, 600],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2924678,
+    "NOME_MUNICIPIO": "Piraí do Norte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10411, 77340, 7, 20],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2913408,
+    "NOME_MUNICIPIO": "Igaporã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16283, 167008, 10, 60],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919553,
+    "NOME_MUNICIPIO": "Luís Eduardo Magalhães",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [83557, 3999684, 47, 181],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2924702,
+    "NOME_MUNICIPIO": "Piripá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11849, 66480, 5, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2920601,
+    "NOME_MUNICIPIO": "Maragogipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [46260, 402368, 8, 150],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2918555,
+    "NOME_MUNICIPIO": "Jussari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6275, 51054, 8, 21],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2916500,
+    "NOME_MUNICIPIO": "Itapicuru",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [36211, 371220, 10, 118],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2908309,
+    "NOME_MUNICIPIO": "Conceição do Almeida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18229, 154762, 8, 71],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2912400,
+    "NOME_MUNICIPIO": "Ibipeba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18678, 117999, 6, 84],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2904209,
+    "NOME_MUNICIPIO": "Botuporã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10898, 85716, 7, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2902252,
+    "NOME_MUNICIPIO": "Arataca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11661, 97942, 8, 39],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903276,
+    "NOME_MUNICIPIO": "Barrocas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16296, 60139, 3, 37],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2921708,
+    "NOME_MUNICIPIO": "Morro do Chapéu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [36856, 299843, 8, 160],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2900207,
+    "NOME_MUNICIPIO": "Abaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20189, 124754, 6, 78],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2922730,
+    "NOME_MUNICIPIO": "Nova Fátima",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8119, 69928, 8, 42],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917607,
+    "NOME_MUNICIPIO": "Jaguaquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [56033, 549746, 9, 254],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2913507,
+    "NOME_MUNICIPIO": "Iguaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27939, 195843, 7, 127],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2920700,
+    "NOME_MUNICIPIO": "Maraú",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21313, 231972, 10, 30],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2912509,
+    "NOME_MUNICIPIO": "Ibipitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15413, 92141, 5, 79],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908408,
+    "NOME_MUNICIPIO": "Conceição do Coité",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [68303, 729657, 10, 319],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904308,
+    "NOME_MUNICIPIO": "Brejões",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15122, 129112, 8, 72],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2929909,
+    "NOME_MUNICIPIO": "Seabra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [45568, 444046, 9, 205],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2925808,
+    "NOME_MUNICIPIO": "Queimadas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26552, 208014, 7, 111],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2918605,
+    "NOME_MUNICIPIO": "Jussiape",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7066, 56631, 8, 66],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914505,
+    "NOME_MUNICIPIO": "Irará",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29879, 240266, 8, 154],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2910404,
+    "NOME_MUNICIPIO": "Encruzilhada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19376, 181804, 9, 90],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2931905,
+    "NOME_MUNICIPIO": "Tucano",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [52540, 424731, 8, 253],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2903235,
+    "NOME_MUNICIPIO": "Barro Alto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15217, 82382, 5, 56],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909406,
+    "NOME_MUNICIPIO": "Cotegipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14414, 124783, 8, 49],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905305,
+    "NOME_MUNICIPIO": "Cafarnaum",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19006, 242501, 12, 74],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2930907,
+    "NOME_MUNICIPIO": "Tabocas do Brejo Velho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13057, 204895, 15, 43],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2901205,
+    "NOME_MUNICIPIO": "Anagé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19568, 160376, 8, 111],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2926806,
+    "NOME_MUNICIPIO": "Rio do Antônio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15804, 97702, 6, 47],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2922706,
+    "NOME_MUNICIPIO": "Nova Canaã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17141, 117992, 6, 73],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914604,
+    "NOME_MUNICIPIO": "Irecê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [74483, 1016283, 13, 992],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2910503,
+    "NOME_MUNICIPIO": "Entre Rios",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [43223, 467036, 10, 194],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2906402,
+    "NOME_MUNICIPIO": "Candeal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8837, 53856, 6, 43],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932002,
+    "NOME_MUNICIPIO": "Uauá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25773, 192135, 7, 86],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2905404,
+    "NOME_MUNICIPIO": "Cairu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18224, 452557, 24, 28],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2931004,
+    "NOME_MUNICIPIO": "Tanhaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21315, 207657, 9, 69],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2901304,
+    "NOME_MUNICIPIO": "Andaraí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13737, 95028, 6, 70],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2926905,
+    "NOME_MUNICIPIO": "Rio do Pires",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12130, 78323, 6, 38],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2922805,
+    "NOME_MUNICIPIO": "Nova Itarana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8428, 50130, 5, 25],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928950,
+    "NOME_MUNICIPIO": "São Domingos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9404, 65380, 6, 40],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2918704,
+    "NOME_MUNICIPIO": "Lafaiete Coutinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [3975, 36946, 9, 14],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2911501,
+    "NOME_MUNICIPIO": "Gongogi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7848, 64370, 8, 26],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907400,
+    "NOME_MUNICIPIO": "Catolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [3669, 72469, 19, 4],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2933000,
+    "NOME_MUNICIPIO": "Valente",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28743, 211864, 7, 111],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2903300,
+    "NOME_MUNICIPIO": "Barro Preto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6251, 250869, 40, 56],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2928901,
+    "NOME_MUNICIPIO": "São Desidério",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33661, 1477592, 43, 63],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2916609,
+    "NOME_MUNICIPIO": "Itapitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10799, 79625, 7, 49],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924801,
+    "NOME_MUNICIPIO": "Piritiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25211, 144639, 5, 116],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922755,
+    "NOME_MUNICIPIO": "Nova Ibiá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6986, 75663, 10, 17],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902302,
+    "NOME_MUNICIPIO": "Aratuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9171, 67349, 7, 20],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2927903,
+    "NOME_MUNICIPIO": "Santa Inês",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11161, 66205, 5, 75],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923803,
+    "NOME_MUNICIPIO": "Paripiranga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [30075, 283646, 9, 107],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919702,
+    "NOME_MUNICIPIO": "Macarani",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19110, 152380, 7, 71],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2915601,
+    "NOME_MUNICIPIO": "Itamaraju",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [67356, 838539, 12, 380],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2931053,
+    "NOME_MUNICIPIO": "Tanque Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17884, 137825, 7, 79],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2901353,
+    "NOME_MUNICIPIO": "Andorinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15490, 172216, 11, 54],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920809,
+    "NOME_MUNICIPIO": "Marcionílio Souza",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10931, 76873, 7, 39],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925931,
+    "NOME_MUNICIPIO": "Quixabeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9411, 59340, 6, 18],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2916708,
+    "NOME_MUNICIPIO": "Itaquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8592, 70852, 8, 57],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924900,
+    "NOME_MUNICIPIO": "Planaltino",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9582, 59180, 6, 26],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922854,
+    "NOME_MUNICIPIO": "Nova Redenção",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9500, 47251, 4, 27],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2912608,
+    "NOME_MUNICIPIO": "Ibiquera",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4214, 26367, 6, 10],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2918753,
+    "NOME_MUNICIPIO": "Lagoa Real",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16029, 86420, 5, 30],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2923902,
+    "NOME_MUNICIPIO": "Pau Brasil",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10673, 89312, 8, 38],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919801,
+    "NOME_MUNICIPIO": "Macaúbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [50987, 322370, 6, 207],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2915700,
+    "NOME_MUNICIPIO": "Itamari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8476, 80683, 9, 42],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907509,
+    "NOME_MUNICIPIO": "Catu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [56459, 516695, 9, 270],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2933109,
+    "NOME_MUNICIPIO": "Várzea do Poço",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9449, 79762, 8, 48],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2911600,
+    "NOME_MUNICIPIO": "Governador Mangabeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21495, 273117, 12, 85],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929008,
+    "NOME_MUNICIPIO": "São Félix",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15310, 171094, 11, 216],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2903409,
+    "NOME_MUNICIPIO": "Belmonte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [24013, 284368, 11, 134],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2921807,
+    "NOME_MUNICIPIO": "Mortugaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12529, 86808, 6, 81],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917706,
+    "NOME_MUNICIPIO": "Jaguarari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [34499, 289675, 8, 166],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913606,
+    "NOME_MUNICIPIO": "Ilhéus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [176341, 3874970, 21, 1471],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909505,
+    "NOME_MUNICIPIO": "Cravolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [5576, 41055, 7, 24],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2933059,
+    "NOME_MUNICIPIO": "Várzea da Roça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14662, 88150, 6, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2914653,
+    "NOME_MUNICIPIO": "Itabela",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [31422, 331073, 10, 157],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908507,
+    "NOME_MUNICIPIO": "Conceição do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33876, 2023104, 59, 173],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930006,
+    "NOME_MUNICIPIO": "Sebastião Laranjeiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11696, 76958, 6, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2904407,
+    "NOME_MUNICIPIO": "Brejolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10833, 85591, 7, 27],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2900306,
+    "NOME_MUNICIPIO": "Acajutiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15727, 115158, 7, 94],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2925907,
+    "NOME_MUNICIPIO": "Quijingue",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28632, 194736, 6, 129],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2917805,
+    "NOME_MUNICIPIO": "Jaguaripe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19036, 158940, 8, 51],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2913705,
+    "NOME_MUNICIPIO": "Inhambupe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [40453, 443792, 10, 185],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2911659,
+    "NOME_MUNICIPIO": "Guajeru",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8081, 55176, 6, 35],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2909604,
+    "NOME_MUNICIPIO": "Crisópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21835, 143554, 6, 91],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2907558,
+    "NOME_MUNICIPIO": "Caturama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9764, 56093, 5, 14],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2933158,
+    "NOME_MUNICIPIO": "Várzea Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13454, 105289, 7, 43],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929057,
+    "NOME_MUNICIPIO": "São Félix do Coribe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15825, 160392, 10, 58],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2908606,
+    "NOME_MUNICIPIO": "Conde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26371, 253865, 9, 76],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2930105,
+    "NOME_MUNICIPIO": "Senhor do Bonfim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [81218, 795942, 9, 555],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2904506,
+    "NOME_MUNICIPIO": "Brotas de Macaúbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10974, 68481, 6, 79],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2928059,
+    "NOME_MUNICIPIO": "Santa Luzia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13398, 410562, 30, 184],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2926004,
+    "NOME_MUNICIPIO": "Remanso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [42672, 318465, 7, 192],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2900405,
+    "NOME_MUNICIPIO": "Água Fria",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17508, 138677, 7, 60],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933174,
+    "NOME_MUNICIPIO": "Varzedo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9375, 94303, 10, 32],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921906,
+    "NOME_MUNICIPIO": "Mucugê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9957, 390094, 39, 42],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2914703,
+    "NOME_MUNICIPIO": "Itaberaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [66806, 799653, 11, 405],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910602,
+    "NOME_MUNICIPIO": "Esplanada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [37845, 489787, 12, 172],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2925956,
+    "NOME_MUNICIPIO": "Rafael Jambeiro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23562, 209932, 8, 141],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2906501,
+    "NOME_MUNICIPIO": "Candeias",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [89707, 3444178, 38, 529],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2932101,
+    "NOME_MUNICIPIO": "Ubaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20800, 186490, 8, 105],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2928000,
+    "NOME_MUNICIPIO": "Santaluz",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [38422, 107168, 2, 56],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2902401,
+    "NOME_MUNICIPIO": "Aurelino Leal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12706, 114307, 8, 68],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2900355,
+    "NOME_MUNICIPIO": "Adustina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17349, 101478, 5, 54],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2905503,
+    "NOME_MUNICIPIO": "Caldeirão Grande",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13713, 102492, 7, 54],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2931103,
+    "NOME_MUNICIPIO": "Tanquinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8232, 48412, 5, 40],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2922904,
+    "NOME_MUNICIPIO": "Nova Soure",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25460, 177652, 6, 142],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2927002,
+    "NOME_MUNICIPIO": "Rio Real",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [41767, 834669, 19, 209],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2901403,
+    "NOME_MUNICIPIO": "Angical",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14690, 143722, 9, 54],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2918803,
+    "NOME_MUNICIPIO": "Laje",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [24306, 228387, 9, 119],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2910701,
+    "NOME_MUNICIPIO": "Euclides da Cunha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [61924, 616993, 9, 341],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2928109,
+    "NOME_MUNICIPIO": "Santa Maria da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [41769, 246878, 5, 122],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2906600,
+    "NOME_MUNICIPIO": "Candiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14792, 102327, 6, 33],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2932200,
+    "NOME_MUNICIPIO": "Ubaitaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20489, 206299, 10, 99],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2924009,
+    "NOME_MUNICIPIO": "Paulo Afonso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [120706, 2267981, 18, 778],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2930154,
+    "NOME_MUNICIPIO": "Serra do Ramalho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [32991, 280208, 8, 123],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2902500,
+    "NOME_MUNICIPIO": "Baianópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14323, 128079, 8, 17],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2915809,
+    "NOME_MUNICIPIO": "Itambé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [24901, 220952, 8, 130],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2927101,
+    "NOME_MUNICIPIO": "Rodelas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9405, 96663, 10, 34],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2901502,
+    "NOME_MUNICIPIO": "Anguera",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11481, 61805, 5, 41],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2916856,
+    "NOME_MUNICIPIO": "Itatim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14957, 305711, 20, 106],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923001,
+    "NOME_MUNICIPIO": "Nova Viçosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [44052, 469825, 10, 173],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918902,
+    "NOME_MUNICIPIO": "Lajedão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4068, 59012, 14, 12],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919926,
+    "NOME_MUNICIPIO": "Madre de Deus",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21007, 455520, 21, 102],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2914802,
+    "NOME_MUNICIPIO": "Itabuna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [221046, 3859881, 17, 2702],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2920908,
+    "NOME_MUNICIPIO": "Mascote",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14728, 135288, 9, 54],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2925006,
+    "NOME_MUNICIPIO": "Planalto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26915, 223299, 8, 132],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2916807,
+    "NOME_MUNICIPIO": "Itarantim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20314, 244021, 12, 77],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2912707,
+    "NOME_MUNICIPIO": "Ibirapitanga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [24293, 214006, 8, 90],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2919900,
+    "NOME_MUNICIPIO": "Macururé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8266, 40558, 4, 31],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2911709,
+    "NOME_MUNICIPIO": "Guanambi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [86808, 1198658, 13, 790],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907608,
+    "NOME_MUNICIPIO": "Central",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17969, 142294, 7, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2933208,
+    "NOME_MUNICIPIO": "Vera Cruz",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [43640, 521784, 11, 174],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903508,
+    "NOME_MUNICIPIO": "Belo Campo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18247, 118406, 6, 104],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929107,
+    "NOME_MUNICIPIO": "São Felipe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21964, 182468, 8, 86],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2921005,
+    "NOME_MUNICIPIO": "Mata de São João",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [46998, 1043734, 22, 211],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2916906,
+    "NOME_MUNICIPIO": "Itiruçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13254, 91225, 6, 90],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923050,
+    "NOME_MUNICIPIO": "Novo Triunfo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16037, 51100, 3, 21],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2912806,
+    "NOME_MUNICIPIO": "Ibirapuã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8852, 208808, 23, 51],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2908705,
+    "NOME_MUNICIPIO": "Condeúba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18191, 126993, 6, 101],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910776,
+    "NOME_MUNICIPIO": "Feira da Mata",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [5922, 48397, 8, 13],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2907707,
+    "NOME_MUNICIPIO": "Chorrochó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11591, 71474, 6, 47],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29005 
+  },
+  {
+    "ID": 2933307,
+    "NOME_MUNICIPIO": "Vitória da Conquista",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [348718, 6226153, 17, 2967],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929206,
+    "NOME_MUNICIPIO": "São Francisco do Conde",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [40220, 11796118, 293, 208],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2903607,
+    "NOME_MUNICIPIO": "Biritinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16653, 107488, 6, 89],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925105,
+    "NOME_MUNICIPIO": "Poções",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [48861, 468594, 9, 274],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2913804,
+    "NOME_MUNICIPIO": "Ipecaetá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15499, 79037, 5, 59],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2933257,
+    "NOME_MUNICIPIO": "Vereda",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6620, 81205, 12, 29],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2909703,
+    "NOME_MUNICIPIO": "Cristópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14403, 131286, 9, 38],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2910727,
+    "NOME_MUNICIPIO": "Eunápolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [115290, 2535370, 21, 651],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2905602,
+    "NOME_MUNICIPIO": "Camacan",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33310, 269741, 8, 163],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2931202,
+    "NOME_MUNICIPIO": "Taperoá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21462, 177260, 8, 50],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2930204,
+    "NOME_MUNICIPIO": "Sento Sé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [41891, 406052, 9, 109],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2904605,
+    "NOME_MUNICIPIO": "Brumado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [69677, 1370329, 19, 390],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910750,
+    "NOME_MUNICIPIO": "Fátima",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18443, 222596, 12, 70],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2900504,
+    "NOME_MUNICIPIO": "Érico Cardoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11212, 56854, 5, 36],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2924058,
+    "NOME_MUNICIPIO": "Pé de Serra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14226, 95639, 6, 71],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2923035,
+    "NOME_MUNICIPIO": "Novo Horizonte",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12514, 70347, 5, 37],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2919959,
+    "NOME_MUNICIPIO": "Maetinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4456, 46058, 10, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926103,
+    "NOME_MUNICIPIO": "Retirolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14730, 116197, 7, 46],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2917904,
+    "NOME_MUNICIPIO": "Jandaíra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11120, 194177, 17, 34],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2922003,
+    "NOME_MUNICIPIO": "Mucuri",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [42072, 1991626, 47, 160],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2913903,
+    "NOME_MUNICIPIO": "Ipiaú",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [47704, 429536, 9, 403],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2909802,
+    "NOME_MUNICIPIO": "Cruz das Almas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [64932, 961686, 14, 325],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2905701,
+    "NOME_MUNICIPIO": "Camaçari",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [296893, 21935897, 73, 1188],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2931301,
+    "NOME_MUNICIPIO": "Tapiramutá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17845, 123508, 6, 66],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2929255,
+    "NOME_MUNICIPIO": "São Gabriel",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19613, 109391, 5, 54],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2927200,
+    "NOME_MUNICIPIO": "Ruy Barbosa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [32009, 314916, 9, 237],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2901601,
+    "NOME_MUNICIPIO": "Antas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19569, 112595, 5, 89],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2919009,
+    "NOME_MUNICIPIO": "Lajedinho",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4017, 53697, 13, 9],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2930303,
+    "NOME_MUNICIPIO": "Serra Dourada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18320, 137938, 7, 67],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2926202,
+    "NOME_MUNICIPIO": "Riachão das Neves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23313, 472011, 20, 99],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2900603,
+    "NOME_MUNICIPIO": "Aiquara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4725, 49816, 10, 15],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922102,
+    "NOME_MUNICIPIO": "Mundo Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27364, 148578, 5, 105],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2911857,
+    "NOME_MUNICIPIO": "Heliópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13718, 88493, 6, 53],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2918001,
+    "NOME_MUNICIPIO": "Jequié",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [162209, 2438384, 15, 1405],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2924108,
+    "NOME_MUNICIPIO": "Pedrão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7527, 39629, 5, 25],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2915908,
+    "NOME_MUNICIPIO": "Itanagra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6730, 60750, 9, 12],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2922052,
+    "NOME_MUNICIPIO": "Mulungu do Morro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11988, 81518, 6, 30],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2920007,
+    "NOME_MUNICIPIO": "Maiquinique",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10274, 93411, 9, 29],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2911808,
+    "NOME_MUNICIPIO": "Guaratinga",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22154, 219726, 9, 59],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2923100,
+    "NOME_MUNICIPIO": "Olindina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29227, 194095, 6, 136],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2921054,
+    "NOME_MUNICIPIO": "Matina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12488, 67183, 5, 32],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2906709,
+    "NOME_MUNICIPIO": "Cândido Sales",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [26674, 174507, 6, 134],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2914901,
+    "NOME_MUNICIPIO": "Itacaré",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28382, 263245, 9, 67],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932309,
+    "NOME_MUNICIPIO": "Ubatã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27527, 186884, 6, 112],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910800,
+    "NOME_MUNICIPIO": "Feira de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [627477, 13107354, 20, 4623],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2928208,
+    "NOME_MUNICIPIO": "Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27492, 72168, 2, 70],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2902609,
+    "NOME_MUNICIPIO": "Baixa Grande",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21403, 137300, 6, 112],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2924207,
+    "NOME_MUNICIPIO": "Pedro Alexandre",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18209, 106432, 5, 26],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2920106,
+    "NOME_MUNICIPIO": "Mairi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19695, 128983, 6, 135],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2916005,
+    "NOME_MUNICIPIO": "Itanhém",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [20501, 219272, 10, 110],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2911907,
+    "NOME_MUNICIPIO": "Iaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25884, 197016, 7, 167],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2910909,
+    "NOME_MUNICIPIO": "Firmino Alves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [5822, 44483, 7, 14],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2915007,
+    "NOME_MUNICIPIO": "Itaeté",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16586, 87300, 5, 44],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906808,
+    "NOME_MUNICIPIO": "Cansanção",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [36191, 249978, 6, 178],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2932408,
+    "NOME_MUNICIPIO": "Uibaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14474, 96526, 6, 58],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2902708,
+    "NOME_MUNICIPIO": "Barra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [54915, 349674, 6, 259],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2904753,
+    "NOME_MUNICIPIO": "Buritirama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21786, 117640, 5, 59],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2928307,
+    "NOME_MUNICIPIO": "Santanópolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9263, 331556, 35, 198],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2912905,
+    "NOME_MUNICIPIO": "Ibirataia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17221, 171186, 9, 117],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910859,
+    "NOME_MUNICIPIO": "Filadélfia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17176, 117328, 6, 77],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2917003,
+    "NOME_MUNICIPIO": "Itiúba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [37567, 281185, 7, 189],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2908804,
+    "NOME_MUNICIPIO": "Contendas do Sincorá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4299, 34529, 8, 16],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2904704,
+    "NOME_MUNICIPIO": "Buerarema",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19256, 177335, 9, 54],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2902658,
+    "NOME_MUNICIPIO": "Banzaê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13765, 82156, 5, 2],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2907806,
+    "NOME_MUNICIPIO": "Cícero Dantas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [34676, 256155, 7, 158],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933406,
+    "NOME_MUNICIPIO": "Wagner",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9753, 72823, 7, 38],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929305,
+    "NOME_MUNICIPIO": "São Gonçalo dos Campos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [38018, 770492, 20, 153],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2903706,
+    "NOME_MUNICIPIO": "Boa Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14069, 94193, 6, 70],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2925204,
+    "NOME_MUNICIPIO": "Pojuca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [39718, 800661, 20, 175],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2931350,
+    "NOME_MUNICIPIO": "Teixeira de Freitas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [161690, 2255519, 13, 1127],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921104,
+    "NOME_MUNICIPIO": "Medeiros Neto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23586, 302756, 12, 133],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2919058,
+    "NOME_MUNICIPIO": "Lajedo do Tabocal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8886, 73023, 8, 46],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917102,
+    "NOME_MUNICIPIO": "Itororó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21241, 216694, 10, 112],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2906857,
+    "NOME_MUNICIPIO": "Capela do Alto Alegre",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12199, 81460, 6, 46],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2932457,
+    "NOME_MUNICIPIO": "Umburanas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19522, 154419, 7, 28],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2913002,
+    "NOME_MUNICIPIO": "Ibitiara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16855, 97800, 5, 97],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2908903,
+    "NOME_MUNICIPIO": "Coração de Maria",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23896, 179339, 7, 74],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2930402,
+    "NOME_MUNICIPIO": "Serra Preta",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16036, 100206, 6, 105],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2904803,
+    "NOME_MUNICIPIO": "Caatiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7841, 66278, 8, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2929404,
+    "NOME_MUNICIPIO": "São Miguel das Matas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12092, 110272, 9, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2903805,
+    "NOME_MUNICIPIO": "Boa Vista do Tupim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19502, 116791, 5, 77],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29011 
+  },
+  {
+    "ID": 2906873,
+    "NOME_MUNICIPIO": "Capim Grosso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [31392, 353837, 11, 196],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2919157,
+    "NOME_MUNICIPIO": "Lapão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [28244, 194053, 6, 118],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2925303,
+    "NOME_MUNICIPIO": "Porto Seguro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [149324, 2523425, 16, 752],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921203,
+    "NOME_MUNICIPIO": "Miguel Calmon",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27520, 220896, 8, 177],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2909901,
+    "NOME_MUNICIPIO": "Curaçá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [35524, 269056, 7, 93],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2927309,
+    "NOME_MUNICIPIO": "Salinas da Margarida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15772, 167687, 10, 68],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2933455,
+    "NOME_MUNICIPIO": "Wanderley",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12935, 132065, 10, 24],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2905800,
+    "NOME_MUNICIPIO": "Camamu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [36644, 338646, 9, 108],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2906824,
+    "NOME_MUNICIPIO": "Canudos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17316, 131589, 7, 69],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29014 
+  },
+  {
+    "ID": 2931400,
+    "NOME_MUNICIPIO": "Teodoro Sampaio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7936, 128772, 16, 48],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923209,
+    "NOME_MUNICIPIO": "Oliveira dos Brejinhos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22805, 159429, 6, 116],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2929354,
+    "NOME_MUNICIPIO": "São José da Vitória",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [6045, 48553, 8, 25],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2901700,
+    "NOME_MUNICIPIO": "Antônio Cardoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12208, 90898, 7, 33],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919108,
+    "NOME_MUNICIPIO": "Lamarão",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9007, 49035, 5, 28],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2925253,
+    "NOME_MUNICIPIO": "Ponto Novo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15830, 111251, 7, 90],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2926301,
+    "NOME_MUNICIPIO": "Riachão do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [34784, 324992, 9, 210],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2900702,
+    "NOME_MUNICIPIO": "Alagoinhas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [155979, 3177575, 20, 1174],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2922201,
+    "NOME_MUNICIPIO": "Muniz Ferreira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7678, 48567, 6, 10],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2929370,
+    "NOME_MUNICIPIO": "São José do Jacuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10784, 78457, 7, 31],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2918100,
+    "NOME_MUNICIPIO": "Jeremoabo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [41605, 315003, 7, 176],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2914000,
+    "NOME_MUNICIPIO": "Ipirá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [62631, 693069, 11, 403],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2923308,
+    "NOME_MUNICIPIO": "Ouriçangas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8916, 52665, 5, 49],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919207,
+    "NOME_MUNICIPIO": "Lauro de Freitas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [197636, 6104081, 30, 1116],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2915106,
+    "NOME_MUNICIPIO": "Itagi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13199, 107395, 8, 78],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2922300,
+    "NOME_MUNICIPIO": "Muritiba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [30631, 288093, 9, 111],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2914109,
+    "NOME_MUNICIPIO": "Ipupiara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10157, 74125, 7, 72],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29022 
+  },
+  {
+    "ID": 2910008,
+    "NOME_MUNICIPIO": "Dário Meira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11716, 92041, 7, 33],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2905909,
+    "NOME_MUNICIPIO": "Campo Alegre de Lourdes",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [30048, 193097, 6, 85],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2931509,
+    "NOME_MUNICIPIO": "Teofilândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23378, 150373, 6, 95],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2927408,
+    "NOME_MUNICIPIO": "Salvador",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [2953986, 61102373, 20, 20227],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2901809,
+    "NOME_MUNICIPIO": "Antônio Gonçalves",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12072, 63539, 5, 34],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2920205,
+    "NOME_MUNICIPIO": "Malhada",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17526, 125249, 7, 45],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2916104,
+    "NOME_MUNICIPIO": "Itaparica",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22866, 209875, 9, 179],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2922250,
+    "NOME_MUNICIPIO": "Muquém do São Francisco",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11644, 127077, 10, 19],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912004,
+    "NOME_MUNICIPIO": "Ibiassucê",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10183, 81015, 7, 74],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2907905,
+    "NOME_MUNICIPIO": "Cipó",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17739, 119426, 6, 75],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2933505,
+    "NOME_MUNICIPIO": "Wenceslau Guimarães",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22365, 319406, 14, 69],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911006,
+    "NOME_MUNICIPIO": "Floresta Azul",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11244, 78633, 6, 42],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2906907,
+    "NOME_MUNICIPIO": "Caravelas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22740, 392261, 17, 79],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2932507,
+    "NOME_MUNICIPIO": "Una",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21331, 287790, 13, 130],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2904852,
+    "NOME_MUNICIPIO": "Cabaceiras do Paraguaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19312, 131693, 6, 56],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928406,
+    "NOME_MUNICIPIO": "Santa Rita de Cássia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29146, 213894, 7, 76],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29002 
+  },
+  {
+    "ID": 2902807,
+    "NOME_MUNICIPIO": "Barra da Estiva",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22082, 245374, 11, 170],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2924306,
+    "NOME_MUNICIPIO": "Piatã",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18267, 116625, 6, 127],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2906899,
+    "NOME_MUNICIPIO": "Caraíbas",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9773, 66434, 6, 26],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2910057,
+    "NOME_MUNICIPIO": "Dias d'Ávila",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [80657, 3346132, 41, 246],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29021 
+  },
+  {
+    "ID": 2916203,
+    "NOME_MUNICIPIO": "Itapé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9830, 94674, 9, 37],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2933604,
+    "NOME_MUNICIPIO": "Xique-Xique",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [48365, 342261, 7, 202],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2912103,
+    "NOME_MUNICIPIO": "Ibicaraí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23529, 173802, 7, 166],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2903904,
+    "NOME_MUNICIPIO": "Bom Jesus da Lapa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [70618, 824384, 11, 351],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2908002,
+    "NOME_MUNICIPIO": "Coaraci",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19022, 158871, 8, 152],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2907004,
+    "NOME_MUNICIPIO": "Cardeal da Silva",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9544, 74520, 7, 21],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29018 
+  },
+  {
+    "ID": 2932606,
+    "NOME_MUNICIPIO": "Urandi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17356, 163105, 9, 73],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2928505,
+    "NOME_MUNICIPIO": "Santa Terezinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10682, 56295, 5, 43],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2902906,
+    "NOME_MUNICIPIO": "Barra do Choça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [34121, 501705, 14, 154],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2924405,
+    "NOME_MUNICIPIO": "Pilão Arcado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [35740, 208213, 5, 104],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29004 
+  },
+  {
+    "ID": 2920304,
+    "NOME_MUNICIPIO": "Malhada de Pedras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8856, 55756, 6, 16],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2913101,
+    "NOME_MUNICIPIO": "Ibititá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17948, 105589, 5, 77],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2909000,
+    "NOME_MUNICIPIO": "Cordeiros",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8904, 52834, 5, 39],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2930501,
+    "NOME_MUNICIPIO": "Serrinha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [83088, 821066, 9, 441],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29016 
+  },
+  {
+    "ID": 2904902,
+    "NOME_MUNICIPIO": "Cachoeira",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [35139, 523162, 14, 200],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2926400,
+    "NOME_MUNICIPIO": "Riacho de Santana",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [36439, 241958, 6, 141],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2900801,
+    "NOME_MUNICIPIO": "Alcobaça",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23376, 260134, 11, 78],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2918209,
+    "NOME_MUNICIPIO": "Jiquiriçá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15106, 109084, 7, 69],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2923357,
+    "NOME_MUNICIPIO": "Ourolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18025, 152104, 8, 51],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2929503,
+    "NOME_MUNICIPIO": "São Sebastião do Passé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [45827, 560528, 12, 194],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2925402,
+    "NOME_MUNICIPIO": "Potiraguá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [8438, 80774, 9, 24],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29029 
+  },
+  {
+    "ID": 2921302,
+    "NOME_MUNICIPIO": "Milagres",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11585, 91049, 7, 69],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2917201,
+    "NOME_MUNICIPIO": "Ituaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19577, 193248, 9, 66],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2926509,
+    "NOME_MUNICIPIO": "Ribeira do Amparo",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15443, 160957, 10, 50],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29015 
+  },
+  {
+    "ID": 2930600,
+    "NOME_MUNICIPIO": "Serrolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13832, 93453, 6, 63],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2922409,
+    "NOME_MUNICIPIO": "Mutuípe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22998, 210022, 9, 114],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2900900,
+    "NOME_MUNICIPIO": "Almadina",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [5985, 55434, 9, 31],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2918308,
+    "NOME_MUNICIPIO": "Jitaúna",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12692, 117518, 9, 84],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2914208,
+    "NOME_MUNICIPIO": "Irajuba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7521, 57290, 7, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2925501,
+    "NOME_MUNICIPIO": "Prado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29326, 416557, 14, 109],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921401,
+    "NOME_MUNICIPIO": "Mirangaba",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18729, 113282, 6, 57],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29010 
+  },
+  {
+    "ID": 2917300,
+    "NOME_MUNICIPIO": "Ituberá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [29428, 325394, 11, 117],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29030 
+  },
+  {
+    "ID": 2909109,
+    "NOME_MUNICIPIO": "Coribe",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14933, 122929, 8, 58],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2905008,
+    "NOME_MUNICIPIO": "Caculé",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [23817, 240374, 10, 112],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2913200,
+    "NOME_MUNICIPIO": "Ibotirama",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [27862, 337311, 12, 209],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29006 
+  },
+  {
+    "ID": 2923407,
+    "NOME_MUNICIPIO": "Palmas de Monte Alto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [22553, 151861, 6, 100],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2919306,
+    "NOME_MUNICIPIO": "Lençóis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11636, 113963, 9, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2915205,
+    "NOME_MUNICIPIO": "Itagibá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15577, 187185, 12, 44],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2911105,
+    "NOME_MUNICIPIO": "Formosa do Rio Preto",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25912, 985453, 38, 61],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29001 
+  },
+  {
+    "ID": 2931608,
+    "NOME_MUNICIPIO": "Teolândia",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [15357, 143430, 9, 61],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910107,
+    "NOME_MUNICIPIO": "Dom Basílio",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12604, 123445, 9, 53],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29025 
+  },
+  {
+    "ID": 2901908,
+    "NOME_MUNICIPIO": "Aporá",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18334, 118226, 6, 73],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29017 
+  },
+  {
+    "ID": 2906006,
+    "NOME_MUNICIPIO": "Campo Formoso",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [73448, 726876, 9, 327],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29008 
+  },
+  {
+    "ID": 2903953,
+    "NOME_MUNICIPIO": "Bom Jesus da Serra",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10477, 52293, 4, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2927507,
+    "NOME_MUNICIPIO": "Santa Bárbara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21415, 156104, 7, 129],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29012 
+  },
+  {
+    "ID": 2919405,
+    "NOME_MUNICIPIO": "Licínio de Almeida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [12969, 101050, 7, 57],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2917359,
+    "NOME_MUNICIPIO": "Jaborandi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9056, 345574, 38, 39],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2915304,
+    "NOME_MUNICIPIO": "Itagimirim",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7291, 108258, 14, 31],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29032 
+  },
+  {
+    "ID": 2921450,
+    "NOME_MUNICIPIO": "Mirante",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9578, 59727, 6, 21],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  },
+  {
+    "ID": 2911204,
+    "NOME_MUNICIPIO": "Gandu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [33234, 318970, 9, 175],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2932705,
+    "NOME_MUNICIPIO": "Uruçuca",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [21711, 199181, 9, 90],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2910206,
+    "NOME_MUNICIPIO": "Dom Macedo Costa",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [4212, 31596, 7, 10],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2906105,
+    "NOME_MUNICIPIO": "Canápolis",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10151, 61321, 6, 6],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2931707,
+    "NOME_MUNICIPIO": "Terra Nova",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13536, 119529, 8, 68],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29019 
+  },
+  {
+    "ID": 2902005,
+    "NOME_MUNICIPIO": "Aracatu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [13962, 125487, 8, 50],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29027 
+  },
+  {
+    "ID": 2927606,
+    "NOME_MUNICIPIO": "Santa Brígida",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14976, 97608, 6, 38],
+    "ID_MESO": 2904, 
+    "ID_MICRO": 29013 
+  },
+  {
+    "ID": 2904050,
+    "NOME_MUNICIPIO": "Bonito",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [17131, 157859, 9, 46],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2923506,
+    "NOME_MUNICIPIO": "Palmeiras",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [9250, 66632, 7, 40],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2916302,
+    "NOME_MUNICIPIO": "Itapebi",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [10830, 577798, 53, 51],
+    "ID_MESO": 2907, 
+    "ID_MICRO": 29031 
+  },
+  {
+    "ID": 2912202,
+    "NOME_MUNICIPIO": "Ibicoara",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19786, 311070, 15, 28],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2901957,
+    "NOME_MUNICIPIO": "Apuarema",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [7730, 67914, 8, 23],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29024 
+  },
+  {
+    "ID": 2908101,
+    "NOME_MUNICIPIO": "Cocos",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [19498, 219406, 11, 44],
+    "ID_MESO": 2901, 
+    "ID_MICRO": 29003 
+  },
+  {
+    "ID": 2904001,
+    "NOME_MUNICIPIO": "Boninal",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14760, 88829, 6, 80],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29023 
+  },
+  {
+    "ID": 2929602,
+    "NOME_MUNICIPIO": "Sapeaçu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [18114, 182552, 10, 76],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2928604,
+    "NOME_MUNICIPIO": "Santo Amaro",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [61961, 755103, 12, 246],
+    "ID_MESO": 2905, 
+    "ID_MICRO": 29020 
+  },
+  {
+    "ID": 2907103,
+    "NOME_MUNICIPIO": "Carinhanha",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [30118, 194248, 6, 108],
+    "ID_MESO": 2902, 
+    "ID_MICRO": 29007 
+  },
+  {
+    "ID": 2924504,
+    "NOME_MUNICIPIO": "Pindaí",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [16889, 167047, 9, 75],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2903003,
+    "NOME_MUNICIPIO": "Barra do Mendes",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14560, 90753, 6, 66],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2918357,
+    "NOME_MUNICIPIO": "João Dourado",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [25646, 216381, 8, 79],
+    "ID_MESO": 2903, 
+    "ID_MICRO": 29009 
+  },
+  {
+    "ID": 2917334,
+    "NOME_MUNICIPIO": "Iuiu",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [11399, 90738, 7, 32],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29026 
+  },
+  {
+    "ID": 2920403,
+    "NOME_MUNICIPIO": "Manoel Vitorino",
+		"CATEGORIA": [],
+		"ATRIBUTOS": ["População", "PIB", "PIB / pop", "Óbitos"],
+		"VALORES": [14251, 109223, 7, 58],
+    "ID_MESO": 2906, 
+    "ID_MICRO": 29028 
+  }
+]
+}
