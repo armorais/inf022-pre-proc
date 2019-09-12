@@ -12,7 +12,7 @@ anos = [2012,2013,2014,2015,2016]
 produto = 'banana'
 
 # Arquivos utilizados
-json_search_file = 'bahia.json'
+json_search_file = './modelos_json/bahia.json'
 
 # Mapeamento das colunas do xls
 NOME_REGIAO = {"coluna":0}
