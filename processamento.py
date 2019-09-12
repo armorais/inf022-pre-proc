@@ -139,12 +139,12 @@ for ano in anos:
     except FileNotFoundError:
         print("Json nao criado, arquivo nao encontrado")
 
-evolucao = GeradorEvolucao.gerar_evolucao(estado['sigla'],anos)
+evolucao = GeradorEvolucao.gerar_evolucao(estado['sigla'],anos,atributos)
 
 # Salva o json de evolucao
 try:
-    with io.open(estado['sigla'] + '_evolucao.json', 'w', encoding='utf8') as f:
-        f.write("%s" % evolucao)
+    with io.open('./out/' + estado['sigla'] + '_evolucao.json', 'w', encoding='utf8') as f:
+        f.write("%s" % json.dumps(evolucao, ensure_ascii=False))
         f.close()
 
     print("Json de evolucao criado.")
