@@ -1,14 +1,7 @@
-class Evolucao:
-    def __init__(self):
-        self.itens = {"MESORREGIOES":[],"MICRORREGIOES":[],"MUNICIPIOS":[]}
-
-    def add_item(self, chave, item):
-        self.itens[chave].append(item)
-
 class Atributo:
     def __init__(self, nome, num_anos):
         self.NOME = nome
-        self.VALORES = [None] * num_anos
+        self.VALORES = [0] * num_anos
 
     def set_nome(self, nome):
         self.NOME = nome
@@ -22,8 +15,8 @@ class Atributo:
     def get_valores(self):
         return self.VALORES
 
-    def append_valor(self, valor):
-        self.VALORES.append(valor)
+    def add_valor(self, valor, ano):
+        self.VALORES[ano] = valor
 
 class Regiao:
     def __init__(self, ID, LISTA_ATRIBUTOS, NUM_ANOS):
@@ -39,8 +32,8 @@ class Regiao:
     def get_atributo(self, index_atributo):
         return self.ATRIBUTOS[index_atributo]
 
-    def set_atributo(self, index_atributo, valor):
-        self.ATRIBUTOS[index_atributo]=valor
+    def set_atributo(self, index_atributo, valor, ano):
+        self.ATRIBUTOS[index_atributo].add_valor(valor,ano)
 
 class Municipio(Regiao):
     def __init__(self, ID, NOME_MUNICIPIO, LISTA_ATRIBUTOS, ID_MESO, ID_MICRO, NUM_ANOS):

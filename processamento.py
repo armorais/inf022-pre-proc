@@ -9,7 +9,7 @@ from evolucao import GeradorEvolucao
 # Parametros de busca
 estado = {'nome':'Bahia', 'sigla':'ba'}
 anos = [2012,2013,2014,2015,2016]
-produto = 'maca'
+produto = 'banana'
 
 # Arquivos utilizados
 json_search_file = './modelos_json/bahia.json'
@@ -146,7 +146,7 @@ evolucao = GeradorEvolucao.gerar_evolucao(estado['sigla'],anos,atributos)
 # Salva o json de evolucao
 try:
     with io.open('./out/' + estado['sigla'] + '_evolucao.json', 'w', encoding='utf8') as f:
-        f.write("%s" % json.dumps(evolucao, ensure_ascii=False))
+        f.write("%s" % json.dumps(evolucao, default=obj_dict ,ensure_ascii=False))
         f.close()
 
     print("Json de evolucao criado.")
