@@ -66,3 +66,8 @@ class Estado:
 
     def set_percentis(self, percentis):
         self.itens["METADADOS"].PERCENTIS = percentis
+
+    def clear_estado(self):
+        self.MIN_Valores = []
+        self.MAX_Valores = []
+        self.itens = {"METADADOS":Metadados(),"MESORREGIOES":[],"MICRORREGIOES":[],"MUNICIPIOS":[]}

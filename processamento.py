@@ -9,7 +9,7 @@ from evolucao import GeradorEvolucao
 # Parametros de busca
 estado = {'nome':'Bahia', 'sigla':'ba'}
 anos = [2012,2013,2014,2015,2016]
-produto = 'banana'
+produto = 'maca'
 
 # Arquivos utilizados
 json_search_file = './modelos_json/bahia.json'
@@ -25,8 +25,7 @@ VALOR = {"nome":"Valor","coluna":5}
 atributos = [AREA_DESTINADA["nome"], AREA_COLHIDA["nome"], QUANTIDADE_PRODUZIDA["nome"], VALOR["nome"]]
 
 # Percentis a serem considerados
-percentis_range = [0.0,40.0,60.0,100.0]
-percentis = []
+percentis_range = [20.0,40.0,60.0,100.0]
 
 # Transforma um obj em um dicionário
 def obj_dict(obj):
@@ -59,6 +58,7 @@ j = Estado()
 proc_flag = False
 
 for ano in anos:
+    j.clear_estado()
     xls_search_file = 'dados/'+ str(ano) +'/'+ produto +'.xls'
     json_out_file =  'out/' + estado['sigla'] + '_' + str(ano) + '_geral.json';
 
@@ -115,6 +115,8 @@ for ano in anos:
 
     # Carrega os valores obtidos em um DataFrame do pandas, passando os atributos como nome das colunas
     dataframe = pd.DataFrame.from_records(j.get_valores_list(), columns = atributos)
+
+    percentis = []
 
     # Pega os percentis e adiciona em uma lista de dicionarios contendo {nome_atributo:percentil}
     for coluna in range(len(atributos)):
